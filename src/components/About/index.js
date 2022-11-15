@@ -1,9 +1,9 @@
 function About() {
     
     return(
-        <>
-            <h1 className="nav-name">Hello World</h1>
-        </>
+        <div>
+            <h1>Hello World</h1>
+        </div>
     );
 }
 
