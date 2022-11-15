@@ -1,11 +1,13 @@
+import Nav from './components/Nav';
+import About from './components/About';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <p>This is some sample text</p>
+      <Nav/>
+      <About />
     </div>
   );
 }
