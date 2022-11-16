@@ -4,7 +4,11 @@ import DetailsModal from "../DetailsModal";
 function Projects() {
 
     const [modalOpen,setModalOpen] = useState(false);
-    const toggleModal = () => {
+
+    const [currentProject,setCurrentProject] = useState();
+
+    const toggleModal = (project,i) => {
+        setCurrentProject({...project, index: i})
         setModalOpen(!modalOpen);
     }
 
@@ -32,8 +36,8 @@ function Projects() {
             <div className="container">
                 <div className="row justify-content-around my-5">
                     
-                    {projectInfo.map((project) => (
-                        <div className="project-card card my-4 bg-secondary col-5" onClick={()=>toggleModal()} key={project.title}>
+                    {projectInfo.map((project,i) => (
+                        <div className="project-card card my-4 bg-secondary col-5" onClick={()=>toggleModal(project,i)} key={project.title}>
                             <img className="card-img-top mt-3" src={project.imageLocation} alt={project.imageAlt}></img>
                             <div className="card-body">
                                 <h3 className="card-title text-white">{project.title}</h3>
@@ -41,7 +45,7 @@ function Projects() {
                         </div>
                     ))}
 
-                    {modalOpen && <DetailsModal onClose={toggleModal}/>}
+                    {modalOpen && <DetailsModal currentProject={currentProject} onClose={toggleModal}/>}
 
                 </div>
             </div>

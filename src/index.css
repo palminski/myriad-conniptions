@@ -26,8 +26,10 @@ code {
 
 .portrait {
   border-radius: 50%;
+  transition: 0.5s;
 
 }
+
 
 .project-card {
   cursor: pointer;
@@ -60,7 +62,7 @@ code {
   border-radius: 6px;
 }
 .outside-modal {
-  background:rgba(0, 0, 0, 0.671);
+  background:rgba(160, 159, 255, 0.671);
   bottom: 0;
   left: 0;
   right: 0;
