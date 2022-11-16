@@ -12,6 +12,43 @@ code {
     monospace;
 }
 
+/* Keyframes and animations*/
+@keyframes grow {
+  from {transform: scale(1);}
+  to {transform: scale(1.2);}
+}
+@keyframes grow-in {
+  from {transform: scale(0.9);}
+  to {transform: scale(1);}
+}
+@keyframes grow-in-modal {
+  from {transform: scale(0);}
+  to {transform: scale(1);}
+}
+@keyframes fade-in-modal-bg {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.grow {
+  animation-name: grow;
+  animation-duration: 0.3s;
+}
+.grow-in {
+  animation-name: grow-in;
+  animation-duration: 0.3s;
+}
+.grow-in-modal {
+  animation-name: grow-in-modal;
+  animation-duration: 0.5s;
+}
+.fade-in-modal-bg {
+  animation-name: fade-in-modal-bg;
+  animation-duration: 0.5s;
+}
+
+
+/* NavBar */
 .nav-name {
   color: rgb(255, 255, 255);
   font-size: 36px;
@@ -24,13 +61,17 @@ code {
   text-decoration: none;
 }
 
+/* About me page */
 .portrait {
+  
   border-radius: 50%;
+  animation-fill-mode: forwards;
   transition: 0.5s;
+  
 
 }
 
-
+/* Project Page */
 .project-card {
   cursor: pointer;
   transition: 0.5s;
