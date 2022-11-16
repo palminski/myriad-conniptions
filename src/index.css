@@ -28,3 +28,14 @@ code {
   border-radius: 50%;
 
 }
+
+.project-card {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.project-card:hover {
+  color: blue !important;
+  box-shadow: 0 6px 6px 3px grey;
+  transform: scale(1.05);
+}
