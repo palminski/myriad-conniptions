@@ -1,6 +1,11 @@
 // import React from 'react'; is no longer required
 
-function Nav() {
+function Nav(props) {
+
+    const {
+        pageSelected,
+        setPageSelected
+    } = props;
     
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
@@ -13,10 +18,10 @@ function Nav() {
 
             <div className="collapse navbar-collapse" id="navbarNav">
                 <div className="navbar-nav ml-auto">
-                <a className="nav-item nav-link" href="#about">About</a>
-                <a className="nav-item nav-link" href="#projects">Projects</a>
-                <a className="nav-item nav-link" href="#resume">Resume</a>
-                <a className="nav-item nav-link" href="#contact">Contact</a>
+                <a className="nav-item nav-link" href="#about" onClick={() => setPageSelected('about')}>About</a>
+                <a className="nav-item nav-link" href="#projects" onClick={() => setPageSelected('projects')}>Projects</a>
+                <a className="nav-item nav-link" href="#resume" onClick={() => setPageSelected('resume')}>Resume</a>
+                <a className="nav-item nav-link" href="#contact" onClick={() => setPageSelected('contact')}>Contact</a>
                 </div>
             </div>
         </nav>
