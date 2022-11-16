@@ -23,3 +23,8 @@ code {
   font-size: 36px;
   text-decoration: none;
 }
+
+.portrait {
+  border-radius: 50%;
+
+}
