@@ -1,4 +1,12 @@
+import { useState } from "react";
+import DetailsModal from "../DetailsModal";
+
 function Projects() {
+
+    const [modalOpen,setModalOpen] = useState(false);
+    const toggleModal = () => {
+        setModalOpen(!modalOpen);
+    }
 
     const projectInfo = [
         {
@@ -15,8 +23,6 @@ function Projects() {
             description: "Lorem Ipsum",
             link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/"
         },
-        
-
     ];
     
     return(
@@ -27,13 +33,15 @@ function Projects() {
                 <div className="row justify-content-around my-5">
                     
                     {projectInfo.map((project) => (
-                        <div className="project-card card my-4 bg-secondary col-5">
+                        <div className="project-card card my-4 bg-secondary col-5" onClick={()=>toggleModal()} key={project.title}>
                             <img className="card-img-top mt-3" src={project.imageLocation} alt={project.imageAlt}></img>
                             <div className="card-body">
                                 <h3 className="card-title text-white">{project.title}</h3>
                             </div>
                         </div>
                     ))}
+
+                    {modalOpen && <DetailsModal onClose={toggleModal}/>}
 
                 </div>
             </div>

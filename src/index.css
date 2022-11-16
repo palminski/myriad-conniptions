@@ -35,7 +35,39 @@ code {
 }
 
 .project-card:hover {
-  color: blue !important;
   box-shadow: 0 6px 6px 3px grey;
   transform: scale(1.05);
 }
+
+/* Modal */
+.modal-background {
+  background:rgba(0, 0, 0, 0.671);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  overflow: auto;
+  position: fixed;
+}
+
+.modal-container {
+  box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.473);
+  max-width: 100%;
+  width: 70%;
+  margin: 50px auto;
+  background-color: rgb(202, 202, 202);
+  border-radius: 6px;
+}
+.outside-modal {
+  background:rgba(0, 0, 0, 0.671);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  overflow: auto;
+  position: fixed;
+}
+
+
