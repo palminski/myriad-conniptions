@@ -39,7 +39,7 @@ function Contact() {
             <hr></hr>
             <div className="container justify-content-around">
                 <div className="row justify-content-around">
-                    <div className="col-7 bg-secondary text-light py-2 my-3 contact-container grow-in">
+                    <div className="col-12 col-lg-7 bg-secondary text-light py-2 my-3 contact-container grow-in">
                         <form id='contact-form' className="my-3" onSubmit={handleFormSubmit}>
                             <div className="form-group">
                                 <label htmlFor='nameInput' className='label-text'>Name</label>
