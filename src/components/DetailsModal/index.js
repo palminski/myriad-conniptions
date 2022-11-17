@@ -12,7 +12,8 @@ function DetailsModal({currentProject, onClose}) {
                         <p className="col-7">{currentProject.description}</p>
                     </div>
                     <div className="row justify-content-around">
-                        <a className="col-11 btn btn-primary my-2" href={currentProject.link} target="_blank">View Webpage</a>
+                    <a className="col-5 btn btn-primary my-2" href={currentProject.link} target="_blank">View Webpage</a>
+                    <a className="col-5 btn btn-primary my-2" href={currentProject.repoLink} target="_blank">View Repo</a>
                     </div>
 
                 </div>
