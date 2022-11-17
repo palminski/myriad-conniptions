@@ -122,3 +122,13 @@ code {
   text-align:left;
 }
 
+/* resume */
+.resume-image {
+  box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.473);
+  transition: 0.5s;
+}
+
+.resume-image:hover {
+  transform: scale(1.05);
+}
+
