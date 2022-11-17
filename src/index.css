@@ -14,11 +14,11 @@ code {
 
 /* Keyframes and animations*/
 @keyframes grow {
-  from {transform: scale(1);}
+  from {transform: scale(1.1);}
   to {transform: scale(1.2);}
 }
 @keyframes grow-in {
-  from {transform: scale(0.9);}
+  from {transform: scale(0.95);}
   to {transform: scale(1);}
 }
 @keyframes grow-in-modal {
@@ -33,20 +33,29 @@ code {
 .grow {
   animation-name: grow;
   animation-duration: 0.3s;
+  animation-timing-function: ease-out;
 }
+
 .grow-in {
   animation-name: grow-in;
   animation-duration: 0.3s;
+  animation-timing-function: ease-out;
 }
+
 .grow-in-modal {
   animation-name: grow-in-modal;
   animation-duration: 0.5s;
+  animation-timing-function: ease-out;
 }
 .fade-in-modal-bg {
   animation-name: fade-in-modal-bg;
   animation-duration: 0.5s;
+  animation-timing-function: ease-out;
 }
 
+.blue {
+  color: blue;
+}
 
 /* NavBar */
 .nav-name {
