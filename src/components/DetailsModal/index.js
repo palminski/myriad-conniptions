@@ -12,7 +12,7 @@ function DetailsModal({currentProject, onClose}) {
                         <img src={currentProject.imageLocation} alt={currentProject.imageAlt} className="col-4"></img>
                         <p className="col-7">{currentProject.description}</p>
                     </div> */}
-                    <img src={currentProject.imageLocation} alt={currentProject.imageAlt} className="col-8"></img>
+                    <img src={currentProject.imageLocation} alt={currentProject.imageAlt} className="col-12 col-md-8 modal-image"></img>
                     <div className="container">
                         <h4 className="my-3">Description</h4>
                         <hr/>
