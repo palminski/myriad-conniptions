@@ -27,6 +27,34 @@ function Projects() {
             description: "Lorem Ipsum",
             link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/"
         },
+        {
+            title: "Ultimate Brew Master",
+            imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
+            imageAlt: "beer and keg",
+            description: "Lorem Ipsum",
+            link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/"
+        },
+        {
+            title: "Ultimate Brew Master",
+            imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
+            imageAlt: "beer and keg",
+            description: "Lorem Ipsum",
+            link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/"
+        },
+        {
+            title: "Ultimate Brew Master",
+            imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
+            imageAlt: "beer and keg",
+            description: "Lorem Ipsum",
+            link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/"
+        },
+        {
+            title: "Ultimate Brew Master",
+            imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
+            imageAlt: "beer and keg",
+            description: "Lorem Ipsum",
+            link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/"
+        },
     ];
     
     return(
@@ -34,7 +62,7 @@ function Projects() {
             <h1 className="my-4 grow-in">Projects</h1>
             <hr/>
             <div className="container">
-                <div className="row justify-content-around my-5">
+                <div className="row justify-content-around my-3">
                     
                     {projectInfo.map((project,i) => (
                         <div className="project-card card my-4 bg-secondary col-5 grow-in" onClick={()=>toggleModal(project,i)} key={project.title}>
