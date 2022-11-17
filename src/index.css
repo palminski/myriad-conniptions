@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding-top: 80px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -117,7 +116,9 @@ code {
 /* Contact */
 .contact-container {
   border-radius: 6px;
+  transition: 0.5s;
 }
 .label-text {
   text-align:left;
 }
+
