@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d5c5c8;
+  color: #001242;
 }
 
 code {
@@ -138,3 +140,19 @@ code {
   transform: scale(1.05);
 }
 
+/* custom bg colors */
+.bg-c-blue{
+  background-color: #001242;
+}
+.bg-c-xanadu{
+  background-color: #6a7b76;
+}
+.bg-c-black-shadows {
+  background-color: #d5c5c8;
+}
+.bg-c-maroon{
+  background-color: #a53860;
+}
+.bg-c-liver{
+  background-color: #654236;
+}

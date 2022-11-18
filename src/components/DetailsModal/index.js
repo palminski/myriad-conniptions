@@ -5,7 +5,7 @@ function DetailsModal({currentProject, onClose}) {
             
             <div className="modal-background fade-in-modal-bg" onClick={onClose}>
                 
-                <div className="container py-3 modal-container grow-in-modal justify-content-around" onClick={(e) => e.stopPropagation()}>
+                <div className="container py-3 modal-container grow-in-modal justify-content-around bg-c-black-shadows" onClick={(e) => e.stopPropagation()}>
                     <h2 className="">{currentProject.title}</h2>
                     <hr/>
                     {/* <div className="row justify-content-between m-5">

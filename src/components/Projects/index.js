@@ -81,7 +81,7 @@ function Projects() {
                 <div className="row justify-content-around my-3">
                     
                     {projectInfo.map((project,i) => (
-                        <div className="project-card card my-4 bg-secondary col-12 col-lg-5 grow-in" onClick={()=>toggleModal(project,i)} key={project.title}>
+                        <div className="project-card card my-4 bg-c-xanadu col-12 col-lg-5 grow-in" onClick={()=>toggleModal(project,i)} key={project.title}>
                             <img className="card-img-top mt-3" src={project.imageLocation} alt={project.imageAlt}></img>
                             <div className="card-body">
                                 <h3 className="card-title text-white">{project.title}</h3>

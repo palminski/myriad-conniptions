@@ -8,7 +8,7 @@ function Nav(props) {
     } = props;
     
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-c-blue py-3">
 
             <a className="nav-name" href="/">William Bolls</a>
 
