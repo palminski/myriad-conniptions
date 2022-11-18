@@ -10,7 +10,7 @@ function Nav(props) {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-c-brown py-3">
 
-            <a className="nav-name header-text" href="/">William Bolls</a>
+            <a className="nav-name header-text" href="/myriad-conniptions">William Bolls</a>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target='#navbarNav' aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>    
