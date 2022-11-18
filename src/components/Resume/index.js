@@ -7,7 +7,7 @@ function Resume() {
             <div className="container my-5">
                 <h3 className="grow-in mb-5">Click the image below to view a PDF of my full resume</h3>
                 <a href={require("../../assets/downloadable-files/resume.pdf")} target="_blank">
-                    <img className="grow-in resume-image" src={require("../../assets/images/resume-image.PNG")} />
+                    <img className="grow-in resume-image image-fluid" src={require("../../assets/images/resume-image.PNG")} />
                 </a>
 
                 <div className="row mt-5">

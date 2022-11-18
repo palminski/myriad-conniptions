@@ -30,9 +30,7 @@ h3 {
   font-family: 'Permanent Marker', cursive;
   transition: 0.3s;
 }
-.header-text:hover {
-  transform: scale(1.1);
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -95,11 +93,7 @@ hr {
   text-decoration: none;
   transition: 0.5s;
 }
-.nav-name:hover {
-  color: rgba(255, 255, 255, 0.568);
-  font-size: 36px;
-  text-decoration: none;
-}
+
 
 /* About me page */
 .portrait {
@@ -117,10 +111,7 @@ hr {
   transition: 0.5s;
 }
 
-.project-card:hover {
-  box-shadow: 0 6px 6px 3px grey;
-  transform: scale(1.05);
-}
+
 
 /* Modal */
 .modal-background {
@@ -161,11 +152,9 @@ hr {
 .resume-image {
   box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.473);
   transition: 0.5s;
+  width: 70%;
 }
 
-.resume-image:hover {
-  transform: scale(1.05);
-}
 
 /* custom bg colors and shadows */
 
@@ -186,4 +175,27 @@ hr {
 
 .about-me-container{
   border-radius: 6px;
+}
+
+/* Hovering Behavior */
+@media (hover: hover) {
+
+  .resume-image:hover {
+    transform: scale(1.05);
+  }
+
+  .project-card:hover {
+    box-shadow: 0 6px 6px 3px grey;
+    transform: scale(1.05);
+  }
+
+  .header-text:hover {
+    transform: scale(1.1);
+  }
+
+  .nav-name:hover {
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 36px;
+    text-decoration: none;
+  }
 }
