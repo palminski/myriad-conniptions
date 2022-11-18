@@ -27,7 +27,7 @@ function Projects() {
             title: "The Lair of the Sphinx",
             imageLocation: require("../../assets/images/project-images/sphinx-page.png"),
             imageAlt: "the fearsome sphinx",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            description: "An online riddle game that ustilises RESTful api's, SQL databases, and sequelise. Solve riddles to slay monsters!",
             link: "https://the-lair-of-the-sphinx.herokuapp.com/",
             repoLink: "https://github.com/Dodgemech/The-Lair-of-the-Sphinx"
         },
@@ -35,7 +35,7 @@ function Projects() {
             title: "Ultimate Brew Master",
             imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
             imageAlt: "beer and keg",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            description: "A simple web aplication that allows users to search for breweries in the United States using the opend brewery API. Also includes fun Simpsons gifs!",
             link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/",
             repoLink: "https://github.com/palminski/ultimate-brew-master-brewery-finder"
         },
@@ -81,7 +81,7 @@ function Projects() {
                 <div className="row justify-content-around my-3">
                     
                     {projectInfo.map((project,i) => (
-                        <div className="project-card card my-4 bg-c-xanadu col-12 col-lg-5 grow-in" onClick={()=>toggleModal(project,i)} key={project.title}>
+                        <div className="project-card card my-4 bg-c-light-brown col-12 col-lg-5 grow-in" onClick={()=>toggleModal(project,i)} key={project.title}>
                             <img className="card-img-top mt-3" src={project.imageLocation} alt={project.imageAlt}></img>
                             <div className="card-body">
                                 <h3 className="card-title text-white">{project.title}</h3>
