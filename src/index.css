@@ -6,9 +6,9 @@ body {
     font-family: 'Sawarabi Mincho', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d5c5c8;
-  background-image: url('/src/assets/images/backgrounds/graphpaper.png') ;
-  color: #001242;
+  background-color: #3f3f3f;
+  /* background-image: url('/src/assets/images/backgrounds/graphpaper.png') ; */
+  color: #e2e2e2;
 }
 
 .paper-card {
@@ -18,16 +18,16 @@ body {
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 h2 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .header-text {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   transition: 0.3s;
 }
 
