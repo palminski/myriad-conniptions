@@ -32,6 +32,14 @@ function Projects() {
             repoLink: "https://github.com/Dodgemech/The-Lair-of-the-Sphinx"
         },
         {
+            title: "Globo Gains",
+            imageLocation: require("../../assets/images/project-images/globo-gains-page.PNG"),
+            imageAlt: "Homepage of Globo Gains",
+            description: "Online workout journal and message board. Theme parodies Globo Gym from the 2004 comedy movie Dodgeball: A true Underdog Story",
+            link: "https://globogains.herokuapp.com/",
+            repoLink: "https://github.com/palminski/perfidious-gains-goblins"
+        },
+        {
             title: "Ultimate Brew Master",
             imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
             imageAlt: "beer and keg",
@@ -63,14 +71,7 @@ function Projects() {
             link: "https://drive.google.com/file/d/1U-wY1mN58ghzcpkD220CrHqd9MdBbOKN/view",
             repoLink: "https://github.com/palminski/employee-manager-rabit"
         },
-        {
-            title: "Note Taker",
-            imageLocation: require("../../assets/images/project-images/note-page.PNG"),
-            imageAlt: "Comand Line Interface employee managing app",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "https://express-note-taker-rabit.herokuapp.com/notes",
-            repoLink: "https://github.com/palminski/express-note-taker-rabit"
-        },
+        
     ];
     
     return(
