@@ -1,5 +1,5 @@
 import {useState} from 'react';
-
+import emailjs from '@emailjs/browser';
 function Contact() {
     
     function validateEmail(email){
@@ -29,7 +29,12 @@ function Contact() {
     function handleFormSubmit(e){
         e.preventDefault();
         if(!validate()) {
-            console.log("form Submit success!");
+            emailjs.send("service_d8kbg57","template_61u52i8",formState,"mJFP0ss7YLIHc1L0s")
+            .then((response) => {
+                console.log("message sent!", response.status);
+                setFormState({name:"",email:"", message:""});
+                setErrorMessage("Message Sent!")
+            })
         };
     }
     
@@ -43,15 +48,15 @@ function Contact() {
                         <form id='contact-form' className="my-3" onSubmit={handleFormSubmit}>
                             <div className="form-group">
                                 <label htmlFor='nameInput' className='label-text'>Name</label>
-                                <input name="name" type="text" className="form-control" id="nameInput" placeholder="Name" onChange={handleFormChange} onBlur={validate}/>
+                                <input name="name" type="text" className="form-control" id="nameInput" placeholder="Name" onChange={handleFormChange} onBlur={validate} value={formState.name}/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor='emailInput' className='label-text'>Email</label>
-                                <input name="email" type="email" className="form-control" id="emailInput" placeholder="Email" onChange={handleFormChange} onBlur={validate}/>
+                                <input name="email" type="email" className="form-control" id="emailInput" placeholder="Email" onChange={handleFormChange} onBlur={validate} value={formState.email}/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor='messageInput' className='label-text'>Message</label>
-                                <textarea name="message" rows="5" className="form-control" id="messageInput" placeholder="Message" onChange={handleFormChange} onBlur={validate}/>
+                                <textarea name="message" rows="5" className="form-control" id="messageInput" placeholder="Message" onChange={handleFormChange} onBlur={validate} value={formState.message}/>
                             </div>
                             <button className="btn btn-primary" type='submit'>Submit</button>
                         </form>
