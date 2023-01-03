@@ -20,7 +20,6 @@ function Nav(props) {
                 <div className="navbar-nav ml-auto">
                 <a className="nav-item nav-link header-text" href="#about" onClick={() => setPageSelected('about')}>About</a>
                 <a className="nav-item nav-link header-text" href="#projects" onClick={() => setPageSelected('projects')}>Projects</a>
-                <a className="nav-item nav-link header-text" href="#resume" onClick={() => setPageSelected('resume')}>Resume</a>
                 <a className="nav-item nav-link header-text" href="#contact" onClick={() => setPageSelected('contact')}>Contact</a>
                 </div>
             </div>

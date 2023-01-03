@@ -20,7 +20,6 @@ function App() {
       />
       {pageSelected==='about' && <About/>}
       {pageSelected==='projects' && <Projects/>}
-      {pageSelected==='resume' && <Resume/>}
       {pageSelected==='contact' && <Contact/>}
       <Footer />
     </div>
