@@ -11,11 +11,7 @@ body {
   color: #e2e2e2;
 }
 
-.paper-card {
-  border-image: url('/src/assets/images/backgrounds/paperBorder.png');
-  border-image-slice: 50 fill;
-  border-image-repeat: repeat;
-}
+
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;

@@ -6,7 +6,7 @@ function About() {
             <hr/>
             <div className="container my-5">
                 <div className="row justify-content-around justify-content-lg-between bg-c-light-brown pt-4 about-me-container">
-                    <img src={require("../../assets/images/monkey-at-computer.jpg")} alt="William Bolls" className="drop-shadow img-fluid col-8 col-lg-4 portrait mb-4 grow-in"></img>
+                    <img src={require("../../assets/images/profile-images/profile-image.jpg")} alt="William Bolls" className="drop-shadow img-fluid col-8 col-lg-4 portrait mb-4 grow-in"></img>
                     <p className="col-12 col-lg-7 grow-in text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="row mt-5">
