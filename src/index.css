@@ -37,7 +37,12 @@ hr {
   border-top: 1px solid #6a7b76;
 }
 
-
+.text-align-left {
+  text-align: left;
+}
+.pointer {
+  cursor: pointer;
+}
 
 /* Keyframes and animations*/
 @keyframes grow {
@@ -152,7 +157,7 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   overflow: auto;
   position: fixed;
 }

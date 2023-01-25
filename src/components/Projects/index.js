@@ -57,30 +57,30 @@ function Projects() {
             link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/",
             repoLink: "https://github.com/palminski/ultimate-brew-master-brewery-finder"
         },
-        {
-            title: "Ra-byte Blog",
-            imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
-            imageAlt: "picture of a simple website",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "https://shrouded-island-63424.herokuapp.com/",
-            repoLink: "https://github.com/palminski/rabyte-blog"
-        },
-        {
-            title: "Cloud Nine",
-            imageLocation: require("../../assets/images/project-images/weather-page.png"),
-            imageAlt: "weather forecast website",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "https://palminski.github.io/cloud-nine-weather-app/",
-            repoLink: "https://github.com/palminski/cloud-nine-weather-app"
-        },
-        {
-            title: "Employee Manager",
-            imageLocation: require("../../assets/images/project-images/manager-page.JPG"),
-            imageAlt: "Comand Line Interface employee managing app",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "https://drive.google.com/file/d/1U-wY1mN58ghzcpkD220CrHqd9MdBbOKN/view",
-            repoLink: "https://github.com/palminski/employee-manager-rabit"
-        },
+        // {
+        //     title: "Ra-byte Blog",
+        //     imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
+        //     imageAlt: "picture of a simple website",
+        //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        //     link: "https://shrouded-island-63424.herokuapp.com/",
+        //     repoLink: "https://github.com/palminski/rabyte-blog"
+        // },
+        // {
+        //     title: "Cloud Nine",
+        //     imageLocation: require("../../assets/images/project-images/weather-page.png"),
+        //     imageAlt: "weather forecast website",
+        //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        //     link: "https://palminski.github.io/cloud-nine-weather-app/",
+        //     repoLink: "https://github.com/palminski/cloud-nine-weather-app"
+        // },
+        // {
+        //     title: "Employee Manager",
+        //     imageLocation: require("../../assets/images/project-images/manager-page.JPG"),
+        //     imageAlt: "Comand Line Interface employee managing app",
+        //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        //     link: "https://drive.google.com/file/d/1U-wY1mN58ghzcpkD220CrHqd9MdBbOKN/view",
+        //     repoLink: "https://github.com/palminski/employee-manager-rabit"
+        // },
         
     ];
     

@@ -9,7 +9,7 @@ function Nav(props) {
     const [coverOn, setCoverOn] = useState(false);
 
     const changePage = (newPage) => {
-        if (pageSelected != newPage) {
+        if (pageSelected != newPage && !coverOn) {
             setCoverOn(true);
 
             
@@ -34,9 +34,9 @@ function Nav(props) {
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="navbar-nav ml-auto">
-                        <a className="nav-item nav-link header-text" href="#about" onClick={() => changePage('about')}>About</a>
-                        <a className="nav-item nav-link header-text" href="#projects" onClick={() => changePage('projects')}>Projects</a>
-                        <a className="nav-item nav-link header-text" href="#contact" onClick={() => changePage('contact')}>Contact</a>
+                        <a className="nav-item nav-link header-text pointer"  onClick={() => changePage('about')}>About</a>
+                        <a className="nav-item nav-link header-text pointer"  onClick={() => changePage('projects')}>Projects</a>
+                        <a className="nav-item nav-link header-text pointer"  onClick={() => changePage('contact')}>Contact</a>
                     </div>
                 </div>
                 
