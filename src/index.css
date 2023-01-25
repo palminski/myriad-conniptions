@@ -34,7 +34,7 @@ code {
 }
 
 hr {
-  border-top: 1px solid #6a7b76;;
+  border-top: 1px solid #6a7b76;
 }
 
 
@@ -101,18 +101,23 @@ hr {
 
 
 /* NavBar */
+nav {
+  z-index: 2;
+  position: relative;
+}
 .nav-name {
   color: rgb(255, 255, 255);
   font-size: 36px;
   text-decoration: none;
   transition: 0.5s;
+
 }
 .cover {
   background-color: #3f3f3f;
   bottom: 0;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 0px;
   z-index: 1;
   overflow: auto;
   position: fixed;

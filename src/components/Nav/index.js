@@ -39,8 +39,9 @@ function Nav(props) {
                         <a className="nav-item nav-link header-text" href="#contact" onClick={() => changePage('contact')}>Contact</a>
                     </div>
                 </div>
-                <div className={coverOn && 'cover'}></div>
+                
             </nav>
+            <div className={coverOn && 'cover'}></div>
         </div>
 
     );
