@@ -34,10 +34,15 @@ code {
 }
 
 hr {
-  border-top: 1px solid #6a7b76;;
+  border-top: 1px solid #6a7b76;
 }
 
-
+.text-align-left {
+  text-align: left;
+}
+.pointer {
+  cursor: pointer;
+}
 
 /* Keyframes and animations*/
 @keyframes grow {
@@ -45,8 +50,16 @@ hr {
   to {transform: scale(1.2);}
 }
 @keyframes grow-in {
-  from {transform: scale(0.95);}
-  to {transform: scale(1);}
+  from 
+  {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to 
+  {
+    transform: scale(1 );
+    opacity: 1;
+  }
 }
 @keyframes grow-in-modal {
   from {transform: scale(0);}
@@ -55,6 +68,16 @@ hr {
 @keyframes fade-in-modal-bg {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+@keyframes cover-down {
+  from {
+    bottom: 100% ;
+
+  }
+  to {
+    
+    bottom: 0;
+  }
 }
 
 .grow {
@@ -83,13 +106,31 @@ hr {
 
 
 /* NavBar */
+nav {
+  z-index: 2;
+  position: relative;
+}
 .nav-name {
   color: rgb(255, 255, 255);
   font-size: 36px;
   text-decoration: none;
   transition: 0.5s;
-}
 
+}
+.cover {
+  background-color: #3f3f3f;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+  overflow: auto;
+  position: fixed;
+
+  animation-name: cover-down;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+}
 
 /* About me page */
 .portrait {
@@ -116,7 +157,7 @@ hr {
   left: 0;
   right: 0;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   overflow: auto;
   position: fixed;
 }
