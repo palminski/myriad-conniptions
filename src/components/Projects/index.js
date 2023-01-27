@@ -26,10 +26,19 @@ function Projects() {
         {
             title: "R.A.B.I.T",
             imageLocation: require("../../assets/images/project-images/rabit-image.PNG"),
-            imageAlt: "the fearsome sphinx",
+            imageAlt: "Rabit like creature",
             description: "RABIT (acronym for Remote Access Bio-Integration Terminator) is a game being created using the GameMaker engine and GML scripting language. This is an ongoing project and is not yet completed, but progess can be viewed following the link below.",
             youtubeLink: "https://www.youtube.com/playlist?list=PLxVRBSIe4S9E1RD_C8kEtvJ5VGjsP85WM",
             
+        },
+
+        {
+            title: "Loquacious Cards",
+            imageLocation: require("../../assets/images/project-images/loquacious-cards.PNG"),
+            imageAlt: "loquacious cards",
+            description: "An online flashcard app created using MongoDB, React, GraphQL and Apollo.",
+            link: "https://loquacious-conversationalist.herokuapp.com/",
+            repoLink: "https://github.com/palminski/loquacious-conversationalist"
         },
 
         {
@@ -57,14 +66,14 @@ function Projects() {
             link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/",
             repoLink: "https://github.com/palminski/ultimate-brew-master-brewery-finder"
         },
-        // {
-        //     title: "Ra-byte Blog",
-        //     imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
-        //     imageAlt: "picture of a simple website",
-        //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        //     link: "https://shrouded-island-63424.herokuapp.com/",
-        //     repoLink: "https://github.com/palminski/rabyte-blog"
-        // },
+        {
+            title: "Ra-byte Blog",
+            imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
+            imageAlt: "picture of a simple website",
+            description: "A simple online forum site made using RESTful API",
+            link: "https://shrouded-island-63424.herokuapp.com/",
+            repoLink: "https://github.com/palminski/rabyte-blog"
+        },
         // {
         //     title: "Cloud Nine",
         //     imageLocation: require("../../assets/images/project-images/weather-page.png"),
