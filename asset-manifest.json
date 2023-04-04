@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/myriad-conniptions/static/css/main.2c1b92af.css",
-    "main.js": "/myriad-conniptions/static/js/main.08b7ebb2.js",
+    "main.js": "/myriad-conniptions/static/js/main.6de83b96.js",
     "static/js/787.1883916a.chunk.js": "/myriad-conniptions/static/js/787.1883916a.chunk.js",
     "static/media/globo-gains-page.PNG": "/myriad-conniptions/static/media/globo-gains-page.393b7bec9ff6b8146afe.PNG",
     "static/media/brew-master-page.png": "/myriad-conniptions/static/media/brew-master-page.d2a816c949766a1b23fd.png",
+    "static/media/RepMaster.PNG": "/myriad-conniptions/static/media/RepMaster.872be6cb0a2f8c04d170.PNG",
     "static/media/profile-image-min.jpg": "/myriad-conniptions/static/media/profile-image-min.141a94e1d94545b05a42.jpg",
     "static/media/sphinx-page.png": "/myriad-conniptions/static/media/sphinx-page.290ae38e3701d2afea93.png",
+    "static/media/manager-page.JPG": "/myriad-conniptions/static/media/manager-page.3493e46ac2fccfb895db.JPG",
     "static/media/loquacious-cards.PNG": "/myriad-conniptions/static/media/loquacious-cards.c2b9285e2f3bafe9a226.PNG",
     "static/media/rabit-image.PNG": "/myriad-conniptions/static/media/rabit-image.1ab8b222ed850eb5d2bc.PNG",
     "static/media/blog-page.PNG": "/myriad-conniptions/static/media/blog-page.a4a2e660336187b9b27e.PNG",
     "index.html": "/myriad-conniptions/index.html",
     "main.2c1b92af.css.map": "/myriad-conniptions/static/css/main.2c1b92af.css.map",
-    "main.08b7ebb2.js.map": "/myriad-conniptions/static/js/main.08b7ebb2.js.map",
+    "main.6de83b96.js.map": "/myriad-conniptions/static/js/main.6de83b96.js.map",
     "787.1883916a.chunk.js.map": "/myriad-conniptions/static/js/787.1883916a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c1b92af.css",
-    "static/js/main.08b7ebb2.js"
+    "static/js/main.6de83b96.js"
   ]
 }
