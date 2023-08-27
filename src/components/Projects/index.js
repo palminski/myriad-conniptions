@@ -31,7 +31,14 @@ function Projects() {
             youtubeLink: "https://www.youtube.com/playlist?list=PLxVRBSIe4S9E1RD_C8kEtvJ5VGjsP85WM",
             
         },
-
+        {
+            title: "VORPAL",
+            imageLocation: require("../../assets/images/project-images/vorpal-image.png"),
+            imageAlt: "A warrior in a dungeon",
+            description: "An endless runner style mobile game where the player must ascend a dungeon and slay monsters. Currently a work in progress, but please feel free to try out the current build on android by downloading the APK below!",
+            downloadLink: require("../../assets/downloadable-files/Vorpal.apk"),
+            repoLink: "https://github.com/palminski/vorpal-swipes",
+        },
         {
             title: "Loquacious Cards",
             imageLocation: require("../../assets/images/project-images/loquacious-cards.PNG"),
@@ -66,14 +73,14 @@ function Projects() {
             link: "https://palminski.github.io/ultimate-brew-master-brewery-finder/",
             repoLink: "https://github.com/palminski/ultimate-brew-master-brewery-finder"
         },
-        {
-            title: "Ra-byte Blog",
-            imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
-            imageAlt: "picture of a simple website",
-            description: "A simple online forum site made using RESTful API",
-            link: "https://shrouded-island-63424.herokuapp.com/",
-            repoLink: "https://github.com/palminski/rabyte-blog"
-        },
+        // {
+        //     title: "Ra-byte Blog",
+        //     imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
+        //     imageAlt: "picture of a simple website",
+        //     description: "A simple online forum site made using RESTful API",
+        //     link: "https://shrouded-island-63424.herokuapp.com/",
+        //     repoLink: "https://github.com/palminski/rabyte-blog"
+        // },
         // {
         //     title: "Cloud Nine",
         //     imageLocation: require("../../assets/images/project-images/weather-page.png"),

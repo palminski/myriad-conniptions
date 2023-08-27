@@ -23,6 +23,7 @@ function DetailsModal({currentProject, onClose}) {
                     </div>
                     <div className="row justify-content-around">
                     {currentProject.link && <a className="col-7 col-md-5 btn btn-primary my-2" href={currentProject.link} target="_blank">View Webpage</a>}
+                    {currentProject.downloadLink && <a className="col-7 col-md-5 btn btn-primary my-2" href={currentProject.downloadLink} download>Download</a>}
                     {currentProject.repoLink && <a className="col-7 col-md-5 btn btn-primary my-2" href={currentProject.repoLink} target="_blank">View Repo <i class="devicon-github-original"></i></a>}
                     {currentProject.youtubeLink && <a className="col-7 col-md-5 btn btn-primary my-2" href={currentProject.youtubeLink} target="_blank">View Video</a>}
                     
