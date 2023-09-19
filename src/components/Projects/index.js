@@ -23,6 +23,15 @@ function Projects() {
     }
 
     const projectInfo = [
+        
+        {
+            title: "VORPAL",
+            imageLocation: require("../../assets/images/project-images/vorpal-image.png"),
+            imageAlt: "A warrior in a dungeon",
+            description: "An endless runner style mobile game where the player must ascend a dungeon and slay monsters.",
+            downloadLink: require("../../assets/downloadable-files/Vorpal.apk"),
+            repoLink: "https://github.com/palminski/vorpal-swipes",
+        },
         {
             title: "R.A.B.I.T",
             imageLocation: require("../../assets/images/project-images/rabit-image.PNG"),
@@ -30,14 +39,6 @@ function Projects() {
             description: "RABIT (acronym for Remote Access Bio-Integration Terminator) is a game being created using the GameMaker engine and GML scripting language. This is an ongoing project and is not yet completed, but progess can be viewed following the link below.",
             youtubeLink: "https://www.youtube.com/playlist?list=PLxVRBSIe4S9E1RD_C8kEtvJ5VGjsP85WM",
             
-        },
-        {
-            title: "VORPAL",
-            imageLocation: require("../../assets/images/project-images/vorpal-image.png"),
-            imageAlt: "A warrior in a dungeon",
-            description: "An endless runner style mobile game where the player must ascend a dungeon and slay monsters. Currently a work in progress, but please feel free to try out the current build on android by downloading the APK below!",
-            downloadLink: require("../../assets/downloadable-files/Vorpal.apk"),
-            repoLink: "https://github.com/palminski/vorpal-swipes",
         },
         {
             title: "Loquacious Cards",
