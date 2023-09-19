@@ -193,6 +193,26 @@ nav {
   width: 70%;
 }
 
+.project-container {
+  border-radius: 6px 6px 6px 0px;
+}
+.project-image {
+  border-radius: 30px;
+  width: 100%;
+}
+.project-tab {
+  background-color: #705a51;
+  padding: 5px;
+  color: white !important;
+  border-radius: 0 0 6px 6px;
+  text-decoration: none !important; 
+  transition: 0.5s;
+}
+
+.project-tab:hover {
+  
+  background-color: #a89087;
+}
 
 /* custom bg colors and shadows */
 
