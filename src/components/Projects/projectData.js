@@ -8,6 +8,12 @@ const projectInfo = [
         pageId: "vorpal",
     },
     {
+        title: "Loquacious Cards",
+        imageLocation: require("../../assets/images/project-images/loquacious-cards.PNG"),
+        imageAlt: "loquacious cards",
+        pageId: "loquacious-cards",
+    },
+    {
         title: "R.A.B.I.T",
         imageLocation: require("../../assets/images/project-images/rabit-image.PNG"),
         imageAlt: "Rabit like creature",
@@ -19,12 +25,7 @@ const projectInfo = [
         imageAlt: "the fearsome sphinx",
         pageId: "the-lair-of-the-sphinx",
     },
-    {
-        title: "Loquacious Cards",
-        imageLocation: require("../../assets/images/project-images/loquacious-cards.PNG"),
-        imageAlt: "loquacious cards",
-        pageId: "loquacious-cards",
-    },
+    
 
     
     
