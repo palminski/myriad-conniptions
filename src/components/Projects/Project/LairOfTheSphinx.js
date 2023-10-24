@@ -20,7 +20,7 @@ function LairOfTheSphinx() {
 
                     <div className="row  justify-content-left drop-shadow">
                         <a className="project-tab  mr-2" href={"https://the-lair-of-the-sphinx.herokuapp.com/"} target="_blank">View Webpage</a>
-                        <a className="project-tab  mr-2" href={"https://github.com/Dodgemech/The-Lair-of-the-Sphinx"} target="_blank">View Repo <i class="devicon-github-original"></i></a>
+                        <a className="project-tab  mr-2" href={"https://github.com/Dodgemech/The-Lair-of-the-Sphinx"} target="_blank">View Repo <i className="devicon-github-original"></i></a>
                     </div>
 
                     <br></br>
@@ -28,10 +28,10 @@ function LairOfTheSphinx() {
 
 
                     <div className="row mt-5 justify-content-center">
-                    <img className="col-4 col-lg-1 drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="" />
-                    <img className="col-4 col-lg-1 drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
-                    <img className="col-4 col-lg-1 drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                        <img className="col-4 col-lg-1 drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" alt="" />
+                    <img className="pb-4 col-4 col-lg-1 icon drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="" />
+                    <img className="pb-4 col-4 col-lg-1 icon drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
+                    <img className="pb-4 col-4 col-lg-1 icon drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
+                    <img className="pb-4 col-4 col-lg-1 icon drop-shadow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" alt="" />
 
 
                     </div>

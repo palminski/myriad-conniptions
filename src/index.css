@@ -46,6 +46,10 @@ hr {
   cursor: pointer;
 }
 
+.email-link {
+  color: #3f3f3f;
+}
+
 /* Keyframes and animations*/
 @keyframes grow {
   from {transform: scale(1.1);}
@@ -145,6 +149,17 @@ nav {
 
 }
 
+.icon {
+  width: 50px;
+  max-width: 100px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Project Page */
 .project-card {
   cursor: pointer;
@@ -200,7 +215,11 @@ nav {
 }
 .project-image {
   border-radius: 30px;
-  width: 100%;
+  width: 50%;
+  transition: 0.5s;
+  float: left;
+  margin: 10px;
+  filter: drop-shadow(0px 3px 6px black); 
 }
 .project-tab {
   background-color: #705a51;
@@ -263,7 +282,7 @@ nav {
     .portrait {
       float: none;
       border-radius: 50px;
-      width: 80%;
+      width: 95%;
     }
   }
 }
