@@ -5,9 +5,9 @@ function About() {
             <h1 className="my-4 ">About Me</h1>
             <hr />
             <div className="container my-5">
-                <div className="row justify-content-around justify-content-lg-between bg-c-light-brown pt-4 about-me-container">
-                    <img src={require("../../assets/images/profile-images/profile-image-min.jpg")} alt="William Bolls" className="drop-shadow img-fluid col-8 col-lg-4 portrait mb-4 "></img>
-                    <p className="col-12 col-lg-7  text-white text-align-left">
+                <div className="bg-c-light-brown pt-4 about-me-container clearfix">
+                    <img src={require("../../assets/images/profile-images/profile-image-min.jpg")} alt="William Bolls" className="drop-shadow img-fluid portrait mb-4 px-4"></img>
+                    <p className="text-white text-align-left px-4 pb-4">
                         Hello! My name is William Bolls. I am a developer with an interest in web and game design. I have a bachelors degree in Psychology and Japanese culture from the University of Oregon. I have also completed a full stack web development bootcamp through the University of Oregon.<br /><br />
                         This website has a selections of some of the projects that I have worked on or am currently working on with links to the application itself (or to videos demonstrating the application in the case of unpublished games) as well as to its github repository.<br /><br />
                         If you would like to contact me you can do so using the form on this website or email me directly at williambolls98@gmail.com.
