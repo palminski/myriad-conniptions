@@ -14,7 +14,7 @@ function Contact() {
     if (state.succeeded) {
         return (
             <>
-            <div className="container my-5">
+            <div className="container my-3">
                 <div className=" pt-2 about-me-container clearfix">
                     
                     <h1>Thank you so much for reaching out!</h1>
@@ -35,7 +35,7 @@ function Contact() {
     return(
         <>
             <h1 className="my-4 grow-in">Contact</h1>
-            <hr></hr>
+            
             <div className="container justify-content-around">
                 <div className="row justify-content-around">
                     <div className="col-12 col-lg-7 bg-c-light-brown perm-shadow text-light py-2 my-3 contact-container grow-in">

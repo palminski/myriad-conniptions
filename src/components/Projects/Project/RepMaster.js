@@ -4,7 +4,7 @@ function RepMaster() {
         <>
             <div className="grow-in">
                 <h1 className="my-4 ">RepMaster</h1>
-                <hr />
+                
                 <div className="container grow-in my-5">
 
 
