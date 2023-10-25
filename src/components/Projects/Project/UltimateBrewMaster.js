@@ -4,7 +4,7 @@ function UltimateBrewMaster() {
         <>
             <div className="grow-in">
                 <h1 className="my-4 ">Ultimate Brew Master</h1>
-                <hr />
+                
                 <div className="container grow-in my-5">
 
 

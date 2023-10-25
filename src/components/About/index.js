@@ -3,8 +3,8 @@ function About() {
     return (
         <div className="grow-in">
             <h1 className="my-4 ">About Me</h1>
-            <hr />
-            <div className="container my-5">
+            
+            <div className="container my-3">
                 <div className="bg-c-light-brown pt-4 about-me-container clearfix">
                     <img src={require("../../assets/images/profile-images/profile-image-min.jpg")} alt="William Bolls" className="drop-shadow img-fluid portrait mb-4 px-4"></img>
                     <p className="text-white text-align-left px-4 pb-4">

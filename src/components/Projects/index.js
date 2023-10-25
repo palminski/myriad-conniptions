@@ -20,7 +20,7 @@ function Projects() {
     return(
         <>
             <h1 className="my-4 grow-in">Projects</h1>
-            <hr/>
+            
             <div className="container">
                 <div className="row justify-content-around my-3">
                     

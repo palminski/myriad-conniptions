@@ -4,7 +4,7 @@ function Rabit() {
         <>
         <div className="grow-in">
             <h1 className="my-4 ">Ra-Bit</h1>
-            <hr/>
+            
             <div className="container grow-in my-5">
                 
 
