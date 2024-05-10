@@ -8,17 +8,18 @@ const projectInfo = [
         pageId: "vorpal",
     },
     {
+        title: "RaBit",
+        imageLocation: require("../../assets/images/project-images/rabit-image.png"),
+        imageAlt: "Rabit like creature",
+        pageId: "rabit",
+    },
+    {
         title: "Loquacious Cards",
         imageLocation: require("../../assets/images/project-images/loquacious-cards.PNG"),
         imageAlt: "loquacious cards",
         pageId: "loquacious-cards",
     },
-    {
-        title: "R.A.B.I.T",
-        imageLocation: require("../../assets/images/project-images/rabit-image.PNG"),
-        imageAlt: "Rabit like creature",
-        pageId: "rabit",
-    },
+    
     {
         title: "The Lair of the Sphinx",
         imageLocation: require("../../assets/images/project-images/sphinx-page.png"),
@@ -29,20 +30,20 @@ const projectInfo = [
 
     
     
-    {
-        title: "RepMaster",
-        imageLocation: require("../../assets/images/project-images/RepMasterPage.PNG"),
-        imageAlt: "Homepage of RepMaster",
-        pageId: "repmaster",
+    // {
+    //     title: "RepMaster",
+    //     imageLocation: require("../../assets/images/project-images/RepMasterPage.PNG"),
+    //     imageAlt: "Homepage of RepMaster",
+    //     pageId: "repmaster",
         
-    },
-    {
-        title: "Ultimate Brew Master",
-        imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
-        imageAlt: "beer and keg",
-        pageId: "ultimate-brew-master",
+    // },
+    // {
+    //     title: "Ultimate Brew Master",
+    //     imageLocation: require("../../assets/images/project-images/brew-master-page.png"),
+    //     imageAlt: "beer and keg",
+    //     pageId: "ultimate-brew-master",
         
-    },
+    // },
     // {
     //     title: "Ra-byte Blog",
     //     imageLocation: require("../../assets/images/project-images/blog-page.PNG"),
