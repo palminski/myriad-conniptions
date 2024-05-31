@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myriad-conniptions/static/css/main.45ffd29a.css",
+    "main.css": "/myriad-conniptions/static/css/main.24f88b22.css",
     "main.js": "/myriad-conniptions/static/js/main.b61d17c2.js",
     "static/js/787.1883916a.chunk.js": "/myriad-conniptions/static/js/787.1883916a.chunk.js",
     "static/media/Vorpal.apk": "/myriad-conniptions/static/media/Vorpal.c760bf2edbb1e416e6e9.apk",
@@ -13,12 +13,12 @@
     "static/media/vorpal-image.png": "/myriad-conniptions/static/media/vorpal-image.cfa9a1e10f21df0048f0.png",
     "static/media/sphinx-page.png": "/myriad-conniptions/static/media/sphinx-page.290ae38e3701d2afea93.png",
     "index.html": "/myriad-conniptions/index.html",
-    "main.45ffd29a.css.map": "/myriad-conniptions/static/css/main.45ffd29a.css.map",
+    "main.24f88b22.css.map": "/myriad-conniptions/static/css/main.24f88b22.css.map",
     "main.b61d17c2.js.map": "/myriad-conniptions/static/js/main.b61d17c2.js.map",
     "787.1883916a.chunk.js.map": "/myriad-conniptions/static/js/787.1883916a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45ffd29a.css",
+    "static/css/main.24f88b22.css",
     "static/js/main.b61d17c2.js"
   ]
 }
