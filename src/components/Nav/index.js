@@ -6,7 +6,7 @@ function Nav() {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-c-brown py-2">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-c-brown pt-3 pr-4">
 
             <a className="nav-name header-text" href="/myriad-conniptions">William Bolls</a>
 

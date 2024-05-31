@@ -14,11 +14,13 @@ function Contact() {
     if (state.succeeded) {
         return (
             <>
+            <h1 className="my-4 grow-in">Contact</h1>
             <div className="container my-3">
-                <div className=" pt-2 about-me-container clearfix">
+                <div className=" p-4 about-me-container bg-c-light-brown clearfix">
                     
-                    <h1>Thank you so much for reaching out!</h1>
-                    <h1>Your message has been sent!</h1>
+                    <h2>Thank you so much for reaching out!</h2>
+                    <br/>
+                    <h2>Your message has been sent!</h2>
                 </div>
                 
             </div>
