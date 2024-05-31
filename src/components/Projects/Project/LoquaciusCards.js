@@ -5,7 +5,7 @@ function LoquaciousCards() {
             <div className="grow-in">
                 <h1 className="my-4 ">Loquacious Cards</h1>
                 
-                <div className="container grow-in">
+                <div className="container grow-in px-4">
 
 
                     <div className="row justify-content-around justify-content-lg-between bg-c-light-brown  project-container">

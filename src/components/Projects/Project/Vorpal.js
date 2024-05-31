@@ -5,10 +5,10 @@ function Vorpal() {
             <div className="grow-in">
                 <h1 className="my-4 ">Vorpal</h1>
 
-                <div className="container grow-in ">
+                <div className="container grow-in px-4">
 
 
-                    <div className="row justify-content-around justify-content-lg-between bg-c-light-brown  project-container">
+                    <div className="row justify-content-around justify-content-lg-between bg-c-light-brown  project-container ">
                         <img src={require("../../../assets/images/project-images/vorpal-image.png")} alt="Loquacious Cards Edit Deck Page" className="drop-shadow img-fluid col-12 col-lg-4 project-image"></img>
                         <p className="col-12 col-lg-8  text-white text-align-left project-text">
                             Vorpal is a fantasy endless runner game built using C# and the Unity engine. The player must swipe to move and tap to toggle their color in order to slay monsters as they ascend a spooky necropolis finding treasure and aiming for a high score. There are also a variety of collectables allowing the player to unlock a secret treasure...

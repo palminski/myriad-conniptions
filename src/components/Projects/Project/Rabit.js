@@ -5,7 +5,7 @@ function Rabit() {
             <div className="grow-in">
                 <h1 className="my-4 ">RaBit</h1>
 
-                <div className="container grow-in">
+                <div className="container grow-in px-4">
                     <div className="row justify-content-around justify-content-lg-between bg-c-light-brown  project-container">
                         <img src={require("../../../assets/images/project-images/rabit-image.png")} alt="A Cute Pixel Art Bunny" className="drop-shadow img-fluid col-12 col-lg-4 project-image  "></img>
                         <p className="col-12 col-lg-8 text-white text-align-left project-text">

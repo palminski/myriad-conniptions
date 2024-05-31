@@ -15,7 +15,7 @@ function Contact() {
         return (
             <>
             <h1 className="my-4 grow-in">Contact</h1>
-            <div className="container my-3">
+            <div className="container ">
                 <div className=" p-4 about-me-container bg-c-light-brown clearfix">
                     
                     <h2>Thank you so much for reaching out!</h2>
@@ -39,8 +39,8 @@ function Contact() {
             <h1 className="my-4 grow-in">Contact</h1>
             
             <div className="container justify-content-around">
-                <div className="row justify-content-around">
-                    <div className="col-12 col-lg-7 bg-c-light-brown perm-shadow text-light py-2 my-3 contact-container grow-in">
+                <div className="row justify-content-around px-2">
+                    <div className="col-12 col-lg-7 bg-c-light-brown perm-shadow text-light py-2 mb-3 contact-container grow-in">
                         <form id='contact-form' className="my-3" onSubmit={handleSubmit}>
                             <div className="form-group">
                                 <label htmlFor='name' className='label-text'>Name</label>
