@@ -8,8 +8,8 @@ function Rabit() {
                 <div className="container grow-in my-5">
 
 
-                    <div className="row justify-content-around justify-content-lg-between bg-c-light-brown pt-4 project-container">
-                        <img src={require("../../../assets/images/project-images/rabit-image.png")} alt="A Cute Pixel Art Bunny" className="drop-shadow img-fluid col-8 col-lg-4 project-image mb-4 "></img>
+                    <div className="row justify-content-around justify-content-lg-between bg-c-light-brown pt-2 project-container">
+                        <img src={require("../../../assets/images/project-images/rabit-image.png")} alt="A Cute Pixel Art Bunny" className="drop-shadow img-fluid col-8 col-lg-4 project-image mb-3 "></img>
                         <p className="col-12 col-lg-7  text-white text-align-left">
                             A game I have been working on in between other projects. Previously I was making it using GameMaker and Game Maker Language (GML). Recently I have switched to developing in Unity using C# as it is a much more powerful engine.
                             <br />
@@ -26,7 +26,7 @@ function Rabit() {
                     </div>
 
                     <div className="row  justify-content-left drop-shadow">
-                        <a className="project-tab  mr-2" href={require("../../../assets/downloadable-files/CurrentBuildRabit.zip")} download>Download Build (v2)</a>
+                        <a className="project-tab  mr-2" href={require("../../../assets/downloadable-files/CurrentBuildRabit.zip")} download>Download Current Testing Build</a>
                         <a className="project-tab  mr-2" href={"https://www.youtube.com/playlist?list=PLxVRBSIe4S9E1RD_C8kEtvJ5VGjsP85WM"} target="_blank">View Old Videos</a>
                     </div>
 
