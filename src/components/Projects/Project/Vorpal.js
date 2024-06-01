@@ -19,8 +19,7 @@ function Vorpal() {
                     </div>
 
                     <div className="row  justify-content-left drop-shadow">
-                        <a className="project-tab  mr-2" href={require("../../../assets/downloadable-files/Vorpal.apk")} download>Download APK</a>
-                        <a className="project-tab  mr-2" href={"https://play.google.com/store/apps/details?id=com.rabitgames.vorpal"} target="_blank">Download on Google Play</a>
+                        <a className="project-tab  mr-2" href={"https://play.google.com/store/apps/details?id=com.rabitgames.vorpal"} target="_blank">View on Google Play</a>
                         <a className="project-tab  mr-2" href={"https://github.com/palminski/vorpal-swipes"} target="_blank">View Repo <i className="devicon-github-original"></i></a>
                     </div>
 
