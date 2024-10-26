@@ -22,7 +22,7 @@ function Rabit() {
                         </p>
                     </div>
                     <div className="row  justify-content-left drop-shadow">
-                        <a className="project-tab  mr-2" href={require("../../../assets/downloadable-files/CurrentBuildRabit.zip")} download>Download Build</a>
+                        <a className="project-tab  mr-2" href={require("../../../assets/downloadable-files/RABIT.zip")} download>Download Build</a>
                         <a className="project-tab  mr-2" href={"https://www.youtube.com/playlist?list=PLxVRBSIe4S9E1RD_C8kEtvJ5VGjsP85WM"} target="_blank">View Old Videos</a>
                     </div>
 
