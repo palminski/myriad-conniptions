@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/myriad-conniptions/static/css/main.371dfe9f.css",
-    "main.js": "/myriad-conniptions/static/js/main.c7d1e654.js",
+    "main.js": "/myriad-conniptions/static/js/main.11eaf934.js",
     "static/js/787.1883916a.chunk.js": "/myriad-conniptions/static/js/787.1883916a.chunk.js",
-    "static/media/RABIT.zip": "/myriad-conniptions/static/media/RABIT.47f97a146013a5f42ce4.zip",
+    "static/media/RABIT_alpha.zip": "/myriad-conniptions/static/media/RABIT_alpha.6b81a2c625d39c0a97ed.zip",
     "static/media/profile-image.jpeg": "/myriad-conniptions/static/media/profile-image.a4118752097543970fcd.jpeg",
     "static/media/brew-master-page.png": "/myriad-conniptions/static/media/brew-master-page.d2a816c949766a1b23fd.png",
     "static/media/RepMasterPage.PNG": "/myriad-conniptions/static/media/RepMasterPage.e629874c2ca878a18387.PNG",
     "static/media/loquacious-cards.PNG": "/myriad-conniptions/static/media/loquacious-cards.2362f199d0a679de8422.PNG",
     "static/media/rabit-image.png": "/myriad-conniptions/static/media/rabit-image.2b49d784613b39bfbf9f.png",
     "static/media/vorpal-image.png": "/myriad-conniptions/static/media/vorpal-image.cfa9a1e10f21df0048f0.png",
+    "static/media/RABIT_IMAGE.png": "/myriad-conniptions/static/media/RABIT_IMAGE.bbe6cbf411d48d522695.png",
     "static/media/sphinx-page.png": "/myriad-conniptions/static/media/sphinx-page.290ae38e3701d2afea93.png",
     "index.html": "/myriad-conniptions/index.html",
     "static/media/endless-clouds.svg": "/myriad-conniptions/static/media/endless-clouds.0a72914e7a4c94fe4c05.svg",
     "main.371dfe9f.css.map": "/myriad-conniptions/static/css/main.371dfe9f.css.map",
-    "main.c7d1e654.js.map": "/myriad-conniptions/static/js/main.c7d1e654.js.map",
+    "main.11eaf934.js.map": "/myriad-conniptions/static/js/main.11eaf934.js.map",
     "787.1883916a.chunk.js.map": "/myriad-conniptions/static/js/787.1883916a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.371dfe9f.css",
-    "static/js/main.c7d1e654.js"
+    "static/js/main.11eaf934.js"
   ]
 }
