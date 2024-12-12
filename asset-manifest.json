@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/myriad-conniptions/static/css/main.371dfe9f.css",
-    "main.js": "/myriad-conniptions/static/js/main.d9656d37.js",
+    "main.js": "/myriad-conniptions/static/js/main.53ba3add.js",
     "static/js/787.1883916a.chunk.js": "/myriad-conniptions/static/js/787.1883916a.chunk.js",
     "static/media/RABIT_alpha.zip": "/myriad-conniptions/static/media/RABIT_alpha.6b81a2c625d39c0a97ed.zip",
     "static/media/RABIT_alpha_1_1.zip": "/myriad-conniptions/static/media/RABIT_alpha_1_1.6aef75139b3425e82840.zip",
+    "static/media/RABIT_alpha_1_2.zip": "/myriad-conniptions/static/media/RABIT_alpha_1_2.c8c5908a6238f447f4ff.zip",
     "static/media/profile-image.jpeg": "/myriad-conniptions/static/media/profile-image.a4118752097543970fcd.jpeg",
     "static/media/brew-master-page.png": "/myriad-conniptions/static/media/brew-master-page.d2a816c949766a1b23fd.png",
     "static/media/RepMasterPage.PNG": "/myriad-conniptions/static/media/RepMasterPage.e629874c2ca878a18387.PNG",
@@ -16,11 +17,11 @@
     "index.html": "/myriad-conniptions/index.html",
     "static/media/endless-clouds.svg": "/myriad-conniptions/static/media/endless-clouds.0a72914e7a4c94fe4c05.svg",
     "main.371dfe9f.css.map": "/myriad-conniptions/static/css/main.371dfe9f.css.map",
-    "main.d9656d37.js.map": "/myriad-conniptions/static/js/main.d9656d37.js.map",
+    "main.53ba3add.js.map": "/myriad-conniptions/static/js/main.53ba3add.js.map",
     "787.1883916a.chunk.js.map": "/myriad-conniptions/static/js/787.1883916a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.371dfe9f.css",
-    "static/js/main.d9656d37.js"
+    "static/js/main.53ba3add.js"
   ]
 }
